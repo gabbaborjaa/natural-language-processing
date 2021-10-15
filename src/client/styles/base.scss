@@ -2,7 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: aquamarine;
+    background: rgb(136, 203, 171);
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 main {
@@ -10,11 +12,14 @@ main {
 }
 
 section {
-    max-width: 800px;
-    margin: 50px auto;
+    max-width: 820px;
+    padding: 15px;
+    margin: 5px auto;
 }
 
-html {
-    font-family: 'Courier New', Courier, monospace;
-    color: maroon
+#results {
+    font-size: 2em;
+    padding: 15px;
+    color: #458148;
+    margin: 5px auto;
 }

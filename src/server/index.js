@@ -5,8 +5,10 @@ const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
 const port = 9000
 const app = express()
+const API_Key = process.env.API_Key
 
 app.use(express.static('dist'))
+
 
 console.log(__dirname)
 
@@ -26,7 +28,7 @@ const server = app.listen(9000, function() {
 
 app.post('/userText', async(req, res) => {
     console.log('req.body ===+>', req.body)
-    const response = await fetch(`https://api.meaningcloud.com/sentiment-2.1?key=${api_key}&url=${req.body.formText}&lang=en`);
+    const response = await fetch(`https://api.meaningcloud.com/sentiment-2.1key=${API_Key}&url=${req.body.formText}&lang=en`);
     try {
         const data = await response.json();
         console.log(data);

@@ -208,7 +208,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  background-color: aquamarine; }\n\nmain {\n  flex: 2; }\n\nsection {\n  max-width: 800px;\n  margin: 50px auto; }\n\nhtml {\n  font-family: 'Courier New', Courier, monospace;\n  color: maroon; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/base.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,sBAAsB;EACtB,iBAAiB;EACjB,4BAA4B,EAAA;;AAGhC;EACI,OAAO,EAAA;;AAGX;EACI,gBAAgB;EAChB,iBAAiB,EAAA;;AAGrB;EACI,8CAA8C;EAC9C,aACJ,EAAA","sourcesContent":["body {\n    display: flex;\n    flex-direction: column;\n    min-height: 100vh;\n    background-color: aquamarine;\n}\n\nmain {\n    flex: 2;\n}\n\nsection {\n    max-width: 800px;\n    margin: 50px auto;\n}\n\nhtml {\n    font-family: 'Courier New', Courier, monospace;\n    color: maroon\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  background: #88cbab;\n  font-weight: bold;\n  font-family: -apple-system, BlinkMacSystemFont, sans-serif; }\n\nmain {\n  flex: 2; }\n\nsection {\n  max-width: 820px;\n  padding: 15px;\n  margin: 5px auto; }\n\n#results {\n  font-size: 2em;\n  padding: 15px;\n  color: #458148;\n  margin: 5px auto; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/base.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,sBAAsB;EACtB,iBAAiB;EACjB,mBAA8B;EAC9B,iBAAiB;EACjB,0DAA0D,EAAA;;AAG9D;EACI,OAAO,EAAA;;AAGX;EACI,gBAAgB;EAChB,aAAa;EACb,gBAAgB,EAAA;;AAGpB;EACI,cAAc;EACd,aAAa;EACb,cAAc;EACd,gBAAgB,EAAA","sourcesContent":["body {\n    display: flex;\n    flex-direction: column;\n    min-height: 100vh;\n    background: rgb(136, 203, 171);\n    font-weight: bold;\n    font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n}\n\nmain {\n    flex: 2;\n}\n\nsection {\n    max-width: 820px;\n    padding: 15px;\n    margin: 5px auto;\n}\n\n#results {\n    font-size: 2em;\n    padding: 15px;\n    color: #458148;\n    margin: 5px auto;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -262,7 +262,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "form {\n  border: 1px solid #545454;\n  border-radius: 3px;\n  padding: 40px; }\n\ninput {\n  padding: 5px 20px;\n  width: 100%;\n  line-height: 16px;\n  margin: 10px 0; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/form.scss"],"names":[],"mappings":"AAAA;EACI,yBAAyB;EACzB,kBAAkB;EAClB,aAAa,EAAA;;AAGjB;EACI,iBAAiB;EACjB,WAAW;EACX,iBAAiB;EACjB,cAAc,EAAA","sourcesContent":["form {\n    border: 1px solid #545454;\n    border-radius: 3px;\n    padding: 40px;\n}\n\ninput {\n    padding: 5px 20px;\n    width: 100%;\n    line-height: 16px;\n    margin: 10px 0;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "form {\n  border: 1px solid #545454;\n  border-radius: 3px;\n  padding: 40px; }\n\ninput {\n  padding: 10px 20px;\n  width: 100%;\n  line-height: 16px;\n  margin: 10px 0; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/form.scss"],"names":[],"mappings":"AAAA;EACI,yBAAyB;EACzB,kBAAkB;EAClB,aAAa,EAAA;;AAGjB;EACI,kBAAkB;EAClB,WAAW;EACX,iBAAiB;EACjB,cAAc,EAAA","sourcesContent":["form {\n    border: 1px solid #545454;\n    border-radius: 3px;\n    padding: 40px;\n}\n\ninput {\n    padding: 10px 20px;\n    width: 100%;\n    line-height: 16px;\n    margin: 10px 0;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -289,7 +289,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "header {\n  display: flex;\n  justify-content: space-between;\n  padding: 10px 40px; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/header.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,8BAA8B;EAC9B,kBAAkB,EAAA","sourcesContent":["header {\n    display: flex;\n    justify-content: space-between;\n    padding: 10px 40px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "header {\n  display: flex;\n  justify-content: space-between;\n  padding: 10px 40px;\n  text-align: center; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/header.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,8BAA8B;EAC9B,kBAAkB;EAClB,kBACJ,EAAA","sourcesContent":["header {\n    display: flex;\n    justify-content: space-between;\n    padding: 10px 40px;\n    text-align: center\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5670,7 +5670,7 @@ function checkForName(inputText) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("f302ba9c3b33f3d489db")
+/******/ 		__webpack_require__.h = () => ("275dc9a27fcbb9cc1f37")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
