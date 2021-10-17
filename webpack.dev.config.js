@@ -15,7 +15,7 @@ module.exports = {
     stats: 'verbose',
     // webpack dev server configuration
     devServer: {
-        port: 9000,
+        port: 9050,
         static: {
             directory: path.resolve(__dirname, './dist-dev')
         },
@@ -48,7 +48,7 @@ module.exports = {
                     options: {
                         // transpiles Javascript code to cross-browser compatible (ES5) code
                         // presets: [ '@babel/env' ]
-                        presets: [ '@babel/preset-env' ]
+                        presets: ['@babel/preset-env']
                     }
                 },
             }
