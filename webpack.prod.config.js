@@ -7,10 +7,13 @@ const HtmlWebPackPlugin = require("html-webpack-plugin")
 module.exports = {
     entry: './src/client/index.js',
     output: {
+        libraryTarget: 'var',
+        library: 'Client',
         // name (with hash characters to make it unique) of generated Javascript output file inserted (by the plugin 'HtmlWebPackPlugin') in the 'head' section of index.html
         filename: 'bundle.[contenthash].js',
         // folder where 'bundle.js' will be placed
         path: path.resolve(__dirname, './dist')
+
     },
     mode: 'production',
     module: {
@@ -40,7 +43,7 @@ module.exports = {
                     options: {
                         // transpiles Javascript code to cross-browser compatible (ES5) code
                         // presets: [ '@babel/env' ]
-                        presets: [ '@babel/preset-env' ]
+                        presets: ['@babel/preset-env']
                     }
                 },
             }
