@@ -9,6 +9,10 @@ module.exports = {
     output: {
         libraryTarget: 'var',
         library: 'Client',
+        // name (with hash characters to make it unique) of generated Javascript output file inserted (by the plugin 'HtmlWebPackPlugin') in the 'head' section of index.html
+        filename: 'bundle.[contenthash].js',
+        // folder where 'bundle.js' will be placed
+        path: path.resolve(__dirname, './dist')
 
     },
     mode: 'production',

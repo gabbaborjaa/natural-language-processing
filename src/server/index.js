@@ -23,9 +23,10 @@ app.get('/test', function(req, res) {
 
 // designates what port the app will listen to for incoming requests
 const server = app.listen(9000, function() {
-    console.log(`Youre running on ${port}`)
+    console.log(`You're running on ${port}`)
+    console.log(`Your API Key is ${API_Key}`)
 });
-
+// API Fetch Call
 app.post('/userText', async(req, res) => {
     console.log('req.body ===+>', req.body)
     const response = await fetch(`https://api.meaningcloud.com/sentiment-2.1key=${API_Key}&url=${req.body.formText}&lang=en`);

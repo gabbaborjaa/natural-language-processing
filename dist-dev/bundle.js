@@ -208,7 +208,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  background: #88cbab;\n  font-weight: bold;\n  font-family: -apple-system, BlinkMacSystemFont, sans-serif; }\n\nmain {\n  flex: 2; }\n\nsection {\n  max-width: 820px;\n  padding: 15px;\n  margin: 5px auto; }\n\n#results {\n  font-size: 2em;\n  padding: 15px;\n  color: #458148;\n  margin: 5px auto; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/base.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,sBAAsB;EACtB,iBAAiB;EACjB,mBAA8B;EAC9B,iBAAiB;EACjB,0DAA0D,EAAA;;AAG9D;EACI,OAAO,EAAA;;AAGX;EACI,gBAAgB;EAChB,aAAa;EACb,gBAAgB,EAAA;;AAGpB;EACI,cAAc;EACd,aAAa;EACb,cAAc;EACd,gBAAgB,EAAA","sourcesContent":["body {\n    display: flex;\n    flex-direction: column;\n    min-height: 100vh;\n    background: rgb(136, 203, 171);\n    font-weight: bold;\n    font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n}\n\nmain {\n    flex: 2;\n}\n\nsection {\n    max-width: 820px;\n    padding: 15px;\n    margin: 5px auto;\n}\n\n#results {\n    font-size: 2em;\n    padding: 15px;\n    color: #458148;\n    margin: 5px auto;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  background: #88cbab;\n  font-weight: bold;\n  font-family: 'Fira Sans', sans-serif; }\n\nmain {\n  flex: 2; }\n\nsection {\n  max-width: 820px;\n  padding: 15px;\n  margin: 5px auto; }\n\n#results {\n  font-size: 2em;\n  padding: 15px;\n  color: #458148;\n  margin: 5px auto; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/base.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,sBAAsB;EACtB,iBAAiB;EACjB,mBAA8B;EAC9B,iBAAiB;EACjB,oCAAoC,EAAA;;AAGxC;EACI,OAAO,EAAA;;AAGX;EACI,gBAAgB;EAChB,aAAa;EACb,gBAAgB,EAAA;;AAGpB;EACI,cAAc;EACd,aAAa;EACb,cAAc;EACd,gBAAgB,EAAA","sourcesContent":["body {\n    display: flex;\n    flex-direction: column;\n    min-height: 100vh;\n    background: rgb(136, 203, 171);\n    font-weight: bold;\n    font-family: 'Fira Sans', sans-serif;\n}\n\nmain {\n    flex: 2;\n}\n\nsection {\n    max-width: 820px;\n    padding: 15px;\n    margin: 5px auto;\n}\n\n#results {\n    font-size: 2em;\n    padding: 15px;\n    color: #458148;\n    margin: 5px auto;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5670,7 +5670,7 @@ function checkForName(inputText) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("f1d748fc75184f15d8a7")
+/******/ 		__webpack_require__.h = () => ("059a288ff6c3764cdeca")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
